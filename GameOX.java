@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class GameOX {
 
-    static char[][] znaki = new char[3][3];
-
     public static int Check(char[][] tab, char x){
         int zm1 = 0;
         int zm2 = 0;
@@ -122,9 +120,6 @@ public class GameOX {
         if (zm9 == 9){
             return 2;
         }
-
-
-
         return 0;
     }
 
